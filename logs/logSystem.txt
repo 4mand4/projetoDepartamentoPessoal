@@ -1,0 +1,5 @@
+::1
+IP: ::1 - DATE: 2022,09,22,21,53,19 - ERROR: PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fhr`.`funcionario`, CONSTRAINT `fk_funcionario_enredereco` FOREIGN KEY (`id_endereco`) REFERENCES `endereco` (`id_endereco`)) in C:\xampp\htdocs\Projeto\2209\projetoDepartamentoPessoal-master\classes\funcionarioCadastro.php:50
+Stack trace:
+#0 C:\xampp\htdocs\Projeto\2209\projetoDepartamentoPessoal-master\classes\funcionarioCadastro.php(50): PDO->exec('INSERT INTO fun...')
+#1 {main}
